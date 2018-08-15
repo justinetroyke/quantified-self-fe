@@ -306,7 +306,7 @@
 
 	'use strict';
 
-	var baseURL = __webpack_require__(2).baseURL();
+	var baseURL = `https://justine-qs-rails.herokuapp.com`
 
 	var foodsAPIFetch = function foodsAPIFetch(id, method, body) {
 	  return fetch(baseURL + '/api/v1/foods/' + id, {
