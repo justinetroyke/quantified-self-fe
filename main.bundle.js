@@ -306,7 +306,7 @@
 
 	'use strict';
 
-	var baseURL = `https://justine-qs-rails.herokuapp.com`
+	var baseURL = `https://justine-qs-express.herokuapp.com`
 
 	var foodsAPIFetch = function foodsAPIFetch(id, method, body) {
 	  return fetch(baseURL + '/api/v1/foods/' + id, {
@@ -414,7 +414,7 @@
 	  if (host === "localhost" || host === "127.0.0.1") {
 	    return "http://localhost:3000";
 	  } else {
-	    return "https://justine-qs-rails.herokuapp.com";
+	    return "https://justine-qs-express.herokuapp.com";
 	  }
 	};
 
